@@ -12,8 +12,9 @@ print(trata)
 
 
 def podschet2(*trata1):
-    for day in trata1:
-        day += day
-    return day
+  sum = 0
+  for day in trata1:
+    sum += day
+  return sum
 
 print(podschet2(56, 14, 17, 56))
